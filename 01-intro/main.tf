@@ -56,7 +56,7 @@ output "input" {
 }
 
 
-# auto.tfvars - Automatically these files are loaded
+# auto.tfvars- Automatically these files are loaded in the execution.
 variable "class" {}
 output "class" {
     value = var.class
